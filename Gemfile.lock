@@ -40,6 +40,3 @@ DEPENDENCIES
   activerecord (= 4.2.6)
   pg
   pry
-
-BUNDLED WITH
-   1.16.1

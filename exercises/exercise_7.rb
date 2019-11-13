@@ -10,3 +10,12 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+puts "Enter a Store Name"
+store_name = gets.chomp
+puts store_name
+
+begin
+  Store.create!(:name => store_name)
+rescue => exception
+  puts exception
+end
